@@ -1,0 +1,24 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #fa1e1e; /* Set your desired background color */
+    margin-bottom: 10px; /* Add some space between squares */
+  }
+ 
+.one{
+    background-color: aqua;
+
+}  
+
+.two{
+    background-color: blueviolet;
+    position: relative;
+    bottom: 50px;
+    /* z-index: -1; */
+}
+

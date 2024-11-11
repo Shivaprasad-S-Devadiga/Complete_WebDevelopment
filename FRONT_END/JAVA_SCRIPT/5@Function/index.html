@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function genRandom(){
+      let random = Math.random();
+      let randMove = random*3;
+      return randMove;
+    }
+    console.log(genRandom());
+    console.log(genRandom());
+    console.log(genRandom());
+    console.log(genRandom());
+
+    function drive(age)
+    {
+      let status;
+      if(age>18){
+        status='You can Drive';
+      }
+      else{
+        status="you can't";
+      }
+      return status;
+    }
+    //let age=12
+    console.log(drive(78));
+
+    function sum(a,b)
+    {
+      return a+b;
+    }
+
+    console.log(sum(3,8));
+  </script>
+</body>
+</html>

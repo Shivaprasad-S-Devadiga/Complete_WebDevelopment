@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function check(num)
+    {
+      if(num%2===0)
+        return 'even';
+      else
+         return 'odd';
+    }
+
+    console.log(check(33));
+    console.log(check(332));
+
+    function larger(a,b)
+    {
+      if(a>=b)
+        return `${a} is larger than ${b}`;
+      else
+      return `${b} is larger than ${a}`;
+    }
+
+    console.log(larger(3,6));
+    console.log(larger(99,0));
+
+    function convert(c)
+    {
+      let f=(9/5)*c +32;
+      return `${c} celsius equal to ${f} fahrenheit`
+    }
+
+    console.log(convert(32));
+  </script>
+</body>
+</html>

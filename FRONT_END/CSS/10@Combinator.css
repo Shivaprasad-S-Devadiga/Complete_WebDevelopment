@@ -1,0 +1,90 @@
+h1{
+    color: pink;
+}
+*{
+    font-family: 'Courier New'; 
+}
+
+#login
+{
+    background-color: white ;
+}
+
+#signup{
+    color: green;
+}
+
+/*Decendent */
+p a {
+    color: purple;
+} 
+
+/*Adjacent sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+
+.up + button{
+    background-color: aquamarine;
+    color:rgb(244, 11, 50);
+}
+
+div>input{
+    background-color: rgb(209, 123, 12);
+}
+
+nav  li
+{ 
+    color: red;
+}
+
+/*Attribute Selector */
+input[type="password"]
+{
+    color: rgb(33, 162, 29);
+}
+
+input[type="text"]
+{
+    color:aquamarine
+}
+
+#myid p{
+    color: purple;
+    font-style: italic;
+}
+
+button:hover{
+     background-color: black;
+     color: aliceblue;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+/* active */
+button:active{
+    background-color: yellow;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* checked */
+input[type="radio"]:checked+label {
+    color: red;
+    font-weight: bold;
+}
+
+h1::first-letter{
+    color:green;
+    font-size: 70px; 
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: rgb(242, 11, 49);
+}

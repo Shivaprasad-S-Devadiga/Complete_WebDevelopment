@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_box{
+    background: url("camera.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    line-height: 60px ;
+}
+
+.sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color :rgb(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgb(255, 255, 255, 0.1);
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgb(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .logo a{
+    position: absolute;
+    color: white;
+}

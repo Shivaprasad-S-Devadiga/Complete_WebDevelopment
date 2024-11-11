@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    margin: 5px;
+    border: 20px solid black;
+    /* display: inline;  it will neglate height and width */ 
+    display:inline-block
+}
+
+#third{
+    display: none;
+}

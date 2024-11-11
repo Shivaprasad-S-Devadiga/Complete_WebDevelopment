@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+/**nav-bar**/
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    padding-top: 3px;
+    height: 60px;
+    width:113px;
+}
+
+.logo{
+    background-image:url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-adress{
+    padding-left: 8px;
+    padding-top: 6px;
+    height: 60px;
+    width: 87px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-icon{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.add-1{
+     color: #CCCCCC;
+     font-size: 0.85rem;
+}
+
+.add-2{
+    font-size: 1rem;
+}
+
+/**bax-3**/
+.nav-search{
+    display: flex; 
+    width: 900px;
+    height: 50px;
+    padding-top: 7px;
+    
+}
+
+
+.search-select{
+    width: 62px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    height: 35px;
+}
+
+.search-icon{
+    width: 45px;
+    height: 40px;
+    font-size: 1.5rem;
+    justify-content: center ;
+    align-items: center;
+    background-color: chocolate;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+} 
+
+
+.lang{
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.account{
+    padding-top: 6px;
+    height: 40px;
+}
+
+.cart{
+    padding-top: 6px;
+    height: 35px;
+    width: 55px;
+    justify-items: center;
+    display: flex;
+}
+
+.cart-icon{
+    font-size: 1.4rem;
+}
+
+.panel{
+    height: 39px;
+    width: 100%;
+    display: flex;
+    background-color: #071414;
+    color: white;
+    justify-content: space-evenly;
+    opacity: .8rem;
+}
+
+.panel-all{
+    margin-left: 8px;
+    display: flex;
+}
+
+.panel-option{
+    display: flex;
+    width: 70%;
+}
+
+/**hero-sec**/
+.hero-section{
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 35px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}   
+
+/**shop-section **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    margin-top: 20px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 10px ;
+    border-radius: 5px;
+}
+
+.box-image{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.box-content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+
+.see-more{
+    height: 70px;
+    width: 90%;
+    background-color: #f0f2f2;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.see-more p{
+    color: #007185;
+}
+
+.recommondation{
+    height: 123px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 60px;
+}
+
+/**recommendentation**/
+.content{
+    margin-left: 25px;
+}
+
+.rec-h{
+    font-size: 2rem;
+}
+
+.sub-content{
+    margin-top: 25px;
+    display: flex;
+}
+
+.explain{
+    width: 80%;
+    font-size: 0.95rem;
+}
+
+.history{
+    display: flex;
+    font-size: 0.85rem;
+    color: #007185;
+}
+
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+    margin-top: 5px;
+}

@@ -1,0 +1,152 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+  display: flex;
+  background-color: peachpuff;
+  height: 80px;
+  justify-content: space-between;  /* space evenly  b/w the 
+  items */
+  align-items: center;
+  border-bottom: 2px solid  #d2c4a6;
+}
+
+.myntra_home{
+     width: 53px;
+     height: 36px;
+}
+
+.logo_container{
+  margin-left:3% ;
+}
+
+.action_bar{
+  margin-right: 3%;
+}
+
+.nav_bar{
+  display: flex;
+  min-width: 400px;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_bar a{
+  color: #282c3f;
+  font-size: 14px;
+  letter-spacing:.3px;
+  font-weight:700 ;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 29px;
+  padding-top: 29px;
+  border-bottom: 4px solid peachpuff;
+}
+
+.nav_bar a:hover{
+  border-bottom: 4px solid #f54e77;
+}
+
+.nav_bar a sup{
+  color: #ff3f6c;
+  font-size: 10px;
+}
+
+.search_bar{
+   height: 40px;
+   width: 400px;
+   min-width: 200px;
+   display: flex;
+   align-items: center;
+   background-color: #f5f5f6;
+   border-radius: 3px;
+}
+
+.search_icon{
+  /* background-color: #f5f5f6; */
+  height: 20px;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-weight: 300px;
+}
+
+.search_box{
+  
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+}
+
+.action_bar{
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+
+.action_container{
+   display: flex;
+   flex-direction: column;
+}
+
+
+/* Main body section */
+.banner_container{
+  margin: 40px 0px;
+}
+.banner_image{
+  width: 100%;
+}
+
+.category_heading{
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0px 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category_items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sale_item{
+   width: 200px;
+}
+
+.footer_container{
+  padding: 30px 0px 40px 0px;
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3{
+  color: #282c3f;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer_container a{
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+

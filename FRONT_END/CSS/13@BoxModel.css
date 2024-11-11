@@ -1,0 +1,16 @@
+div{
+    height: 95px;
+    width: 600px;
+    border: 10px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+} 
+
+button{
+    border:2px solid yellow;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

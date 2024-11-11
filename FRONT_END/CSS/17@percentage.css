@@ -1,0 +1,18 @@
+h1{
+    border:5px solid black;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+    margin: 50px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color:cornflowerblue;
+    /* margin: 33%; */
+    margin-left: 50%;
+}

@@ -1,0 +1,21 @@
+h1{
+    color: pink;
+}
+*{
+    font-family: 'Courier New'; 
+}
+
+#login
+{
+    background-color: white ;
+}
+
+.a{
+    color: green;
+}
+
+/*Decendent */
+p a {
+    color: purple;
+} 
+
